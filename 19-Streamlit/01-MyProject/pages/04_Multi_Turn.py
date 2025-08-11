@@ -19,7 +19,7 @@ import os
 load_dotenv()
 
 # 프로젝트 이름을 입력합니다.
-logging.langsmith("[Project] Multi Tuen 챗봇")
+logging.langsmith("[Project] Multi Turn 챗봇")
 
 # 캐시 디렉토리 생성
 if not os.path.exists(".cache"):
