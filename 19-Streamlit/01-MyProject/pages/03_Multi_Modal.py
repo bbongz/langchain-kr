@@ -66,7 +66,7 @@ def add_message(role, message):
     st.session_state["messages"].append(ChatMessage(role=role, content=message))
 
 
-# 이미지을 캐시 저장(시간이 오래 걸리는 작업을 처리할 예정)
+# 이미지를 캐시 저장(시간이 오래 걸리는 작업을 처리할 예정)
 @st.cache_resource(show_spinner="업로드한 이미지를 처리 중입니다...")
 def process_imagefile(file):
     # 업로드한 파일을 캐시 디렉토리에 저장합니다.
